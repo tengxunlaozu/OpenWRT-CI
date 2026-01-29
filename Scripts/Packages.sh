@@ -54,7 +54,7 @@ UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"
 # daed 代理（你要加的）
-UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
+# UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 
 UPDATE_VERSION() {
 	local PKG_NAME=$1
@@ -96,5 +96,5 @@ UPDATE_VERSION() {
 	done
 }
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
-UPDATE_VERSION "sing-box"
+#UPDATE_VERSION "sing-box"
 #UPDATE_VERSION "tailscale"
