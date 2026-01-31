@@ -54,8 +54,6 @@ UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"
 UPDATE_PACKAGE "wireguard" "openwrt/packages" "master" "" "luci-app-wireguard luci-proto-wireguard kmod-wireguard"
-# daed 代理（你要加的）
-UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 
 UPDATE_VERSION() {
 	local PKG_NAME=$1
